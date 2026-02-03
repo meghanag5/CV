@@ -111,13 +111,12 @@ section a:hover {
 /**************   Responsiveness   *****************/
 @media (max-width: 680px) {
     nav {
-      
+      display: flex;
       flex-direction: column;
-      
     }
 
     .three-col {
-      
+      display: grid;
       grid-template-columns: 1fr;
     }
 }
