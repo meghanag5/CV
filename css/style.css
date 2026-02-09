@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: #edbebe;
   }
 
 /****************   Nav Section **********************/
@@ -7,18 +8,17 @@ nav {
   display:flex;
   justify-content: space-between;
   align-items: center;
-	background-color: #46d6d1;
-  border-radius: 50px;
-  
+	background-color: #41041e;
+  border: #550202;
+
 }
 
 /***********************  Footer Section   **************************/
 footer {
 	display:flex;
   justify-content: center;
-  background-color: rgb(151, 151, 187);
+  background-color: rgb(235, 156, 188);
   padding: 50px;
-
 }
 
 /*********** Splash Page ************************/
@@ -33,7 +33,7 @@ header {
 header h1 {
   font-family: "Playfair Display", serif;
   font-size:48px;
-  color:rgb(70, 12, 115)
+  color:rgb(127, 5, 40)
 }
 
 header img {
